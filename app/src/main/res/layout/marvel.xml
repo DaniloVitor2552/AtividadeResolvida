@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MarvelActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorblack"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/marvel"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorblack"
+
+        >
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="API MARVEL"
+            android:textSize="40dp"
+            android:textColor="@color/colorwhite"
+            android:layout_marginLeft="80dp"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        >
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/nome_personagem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Personagem..."
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="40dp"
+
+            android:inputType="textEmailAddress" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="145dp"
+            android:text="Pesquisar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
